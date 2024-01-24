@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a35f9640-07c5-4602-aa9e-9e6ef891ddf2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment1-CSCN72040.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/Tests.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/src/FilePointReaderTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/src/PointTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataPoint/DataPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataPoint/Orientation/Orientation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataPoint/Orientation/Read/FileOrientationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataPoint/Orientation/Read/IOrientationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataPoint/Point/DistanceCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataPoint/Point/IPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataPoint/Point/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataPoint/Point/Read/FilePointReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataPoint/Point/Read/IPointReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataPoint/Read/DataPointReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearningModel/Classifiers/AnotherClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearningModel/Classifiers/IClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearningModel/Classifiers/Neighbor/KNearestNeighbor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearningModel/Classifiers/Neighbor/NearestNeighbor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LearningModel/LearningModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trainingData.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2bF9oAhwsGTq7yuyrgkIC1joEhA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/Devon/Assignment1-CSCN72040/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "onboarding.tips.debug.path": "C:/Users/Devon/Assignment1-CSCN72040/Tests/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Devon\Assignment1-CSCN72040\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="FilePointReaderTests.testFilePointReader" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FilePointReaderTests" />
+      <option name="METHOD_NAME" value="testFilePointReader" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilePointReaderTests.testFilePointReaderInvalidInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FilePointReaderTests" />
+      <option name="METHOD_NAME" value="testFilePointReaderInvalidInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilePointReaderTests.testFilePointReaderInvalidInput2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FilePointReaderTests" />
+      <option name="METHOD_NAME" value="testFilePointReaderInvalidInput2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilePointReaderTests.testFilePointReaderTwoLines" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FilePointReaderTests" />
+      <option name="METHOD_NAME" value="testFilePointReaderTwoLines" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PointTests.testPointEqualsLongPrecisionFloats" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PointTests" />
+      <option name="METHOD_NAME" value="testPointEqualsLongPrecisionFloats" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FilePointReaderTests.testFilePointReaderInvalidInput2" />
+        <item itemvalue="JUnit.FilePointReaderTests.testFilePointReaderInvalidInput" />
+        <item itemvalue="JUnit.FilePointReaderTests.testFilePointReaderTwoLines" />
+        <item itemvalue="JUnit.FilePointReaderTests.testFilePointReader" />
+        <item itemvalue="JUnit.PointTests.testPointEqualsLongPrecisionFloats" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a35f9640-07c5-4602-aa9e-9e6ef891ddf2" name="Changes" comment="" />
+      <created>1705800133649</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705800133649</updated>
+      <workItem from="1705800134648" duration="244000" />
+      <workItem from="1705800390613" duration="22715000" />
+      <workItem from="1705857959268" duration="14893000" />
+      <workItem from="1705946054793" duration="15999000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.AssertionError" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DataPoint/Orientation/Read/FileOrientationReader.java</url>
+          <line>15</line>
+          <properties class="DataPoint.Orientation.Read.FileOrientationReader" method="read">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/DataPoint/Point/Read/FilePointReader.java</url>
+          <line>17</line>
+          <properties class="DataPoint.Point.Read.FilePointReader" method="read">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
