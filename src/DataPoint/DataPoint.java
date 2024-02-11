@@ -6,7 +6,7 @@ import DataPoint.Orientation.Orientation;
 /**
  * represents a data point in 3D space with an orientation
  */
-public class DataPoint {
+public class DataPoint implements IPoint {
     private final IPoint Point;
     private final Orientation Orientation;
 
@@ -18,7 +18,6 @@ public class DataPoint {
         Point = point;
         Orientation = orientation;
     }
-
     /**
      * @return the x coordinate of point in 3D space
      */
@@ -49,10 +48,10 @@ public class DataPoint {
 
     /**
      * @param other the other data point
-     * @return the distance between this data point and the other data point
+     * @return the distance between this data point and the other point
      */
-    public double distance(final DataPoint other) {
-        return DistanceCalculator.calculate(Point, other.Point);
+    public double distance(final IPoint other) {
+        return DistanceCalculator.calculate(Point, other);
     }
 
     /**
@@ -67,5 +66,9 @@ public class DataPoint {
             return false;
         DataPoint other = (DataPoint)o;
         return Point.equals(other.Point) && Orientation.equals(other.Orientation);
+    }
+
+    public String toString() {
+        return Point.toString() + " " + Orientation.toString();
     }
 }

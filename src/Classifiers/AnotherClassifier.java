@@ -1,4 +1,4 @@
-package LearningModel.Classifiers;
+package Classifiers;
 
 public class AnotherClassifier {
 }

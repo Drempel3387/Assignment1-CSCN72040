@@ -1,18 +1,22 @@
-package LearningModel.Classifiers.Neighbor;
+package Classifiers.Neighbor;
 
 import DataPoint.DataPoint;
 import DataPoint.Orientation.Orientation;
-import LearningModel.Classifiers.IClassifier;
+import Classifiers.IClassifier;
+import DataPoint.Point.Point;
 
 import java.util.*;
 
+/**
+ * A K-nearest neighbor classifier
+ */
 public class KNearestNeighbor implements IClassifier {
     private final int K;
-    private final DataPoint dataPoint;
+    private final Point Point;
     private final List<DataPoint> trainingData;
 
-    public KNearestNeighbor(final DataPoint dataPoint, final List<DataPoint> trainingData, final int k) {
-        this.dataPoint = dataPoint;
+    public KNearestNeighbor(final Point Point, final List<DataPoint> trainingData, final int k) {
+        this.Point = Point;
         this.trainingData = trainingData;
         K = k;
     }
@@ -23,7 +27,7 @@ public class KNearestNeighbor implements IClassifier {
     private Map<DataPoint, Double> pointDistanceMap() {
         Map<DataPoint, Double> pointDistanceMap = new HashMap<>();
         for (DataPoint point : trainingData) {
-            pointDistanceMap.put(point, point.distance(dataPoint));
+            pointDistanceMap.put(point, point.distance(Point));
         }
         return pointDistanceMap;
     }
@@ -59,6 +63,10 @@ public class KNearestNeighbor implements IClassifier {
         return orientationCountMap;
     }
 
+    /**
+     * @param orientationCountMap a map of each orientation to the number of points in training data with that orientation
+     * @return the orientation with the most points among the K nearest neighbors of dataPoint
+     */
     private Orientation majorityOrientation(final Map<Orientation, Integer> orientationCountMap) {
         int maxCount = 0; //number of points for the current majority orientation
         Orientation majorityOrientation = Orientation.NONE;
@@ -71,6 +79,10 @@ public class KNearestNeighbor implements IClassifier {
         }
         return majorityOrientation;
     }
+
+    /**
+     * @return the orientation of dataPoint
+     */
     @Override
     public Orientation classify() {
         Map<DataPoint, Double> pointDistanceMap = pointDistanceMap();

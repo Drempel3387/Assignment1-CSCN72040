@@ -1,23 +1,23 @@
-package LearningModel.Classifiers.Neighbor;
+package Classifiers.Neighbor;
 
 import DataPoint.DataPoint;
+import DataPoint.Point.Point;
 import DataPoint.Orientation.Orientation;
-import LearningModel.Classifiers.IClassifier;
+import Classifiers.IClassifier;
 
-import java.util.Collection;
 import java.util.List;
 
 public class NearestNeighbor implements IClassifier {
-    private final DataPoint dataPoint;
+    private final Point Point;
     private final List<DataPoint> trainingData;
 
-    public NearestNeighbor(final DataPoint dataPoint, final List<DataPoint> trainingData) {
-        this.dataPoint = dataPoint;
+    public NearestNeighbor(final Point dataPoint, final List<DataPoint> trainingData) {
+        this.Point = dataPoint;
         this.trainingData = trainingData;
     }
 
     /**
-     * @return the nearest data point in training data to dataPoint
+     * @return the nearest data point in training data to the input dataPoint
      */
     private DataPoint nearest() {
         double minDistance = Double.MAX_VALUE;
@@ -25,8 +25,8 @@ public class NearestNeighbor implements IClassifier {
 
         //finds the nearest data point in training data to dataPoint
         for (DataPoint point : trainingData) {
-            if (point.distance(dataPoint) < minDistance) {
-                minDistance = point.distance(dataPoint);
+            if (point.distance(Point) < minDistance) {
+                minDistance = point.distance(Point);
                 nearestDataPoint = point;
             }
         }

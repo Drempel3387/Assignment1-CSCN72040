@@ -62,4 +62,9 @@ public class Point implements IPoint {
         Point p = (Point) o;
         return Double.compare(X, p.X) == 0 && Double.compare(Y, p.Y) == 0 && Double.compare(Z, p.Z) == 0;
     }
+
+    @Override
+    public String toString() {
+        return "X: " + X + " Y: " + Y + " Z: " + Z;
+    }
 }

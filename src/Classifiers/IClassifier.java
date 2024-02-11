@@ -1,10 +1,10 @@
-package LearningModel.Classifiers;
+package Classifiers;
 
-import DataPoint.DataPoint;
 import DataPoint.Orientation.Orientation;
 
-import java.util.List;
-
+/**
+ * Interface for an orientation classifier
+ */
 public interface IClassifier {
     Orientation classify();
 }
